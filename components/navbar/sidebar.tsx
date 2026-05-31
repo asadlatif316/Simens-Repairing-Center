@@ -41,7 +41,7 @@ const Sidebar = () => {
                     {item.label}
                     <ChevronDown className='w-4 h-4' />
                   </CollapsibleTrigger>
-                  <CollapsibleContent>
+                  <CollapsibleContent className='collapsible-content'>
                     <ul className=' mt-1 flex flex-col gap-y-1'>
                       {item.children.map((child) => (
                         <li key={child.href}>
@@ -56,7 +56,7 @@ const Sidebar = () => {
               </li>
             ) : (
               <li key={item.href}>
-                <Link className='text-base' href={item.href}>
+                <Link className='text-base nav-link' href={item.href}>
                   {item.label}
                 </Link>
               </li>
