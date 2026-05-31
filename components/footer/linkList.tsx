@@ -1,5 +1,17 @@
+import {links} from '@/lib/links'
+import Link from 'next/link';
+
 const LinkList = () => {
-  return <div>LinkList</div>;
+  return (
+    <div>
+          <h3 className='font-semibold text-lg'>Links</h3>
+          <ul>
+              {links.map(link=>(
+                  <li key={link.href}><Link className='text-sm' href={link.href}>{link.label}</Link></li>
+              ))}
+          </ul>
+    </div>
+  );
 };
 
 export default LinkList;
