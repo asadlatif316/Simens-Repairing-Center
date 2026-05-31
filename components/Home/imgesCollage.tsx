@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 const ImagesCollage = () => {
   return (
-    <div className='flex flex-col gap-2 p-10'>
+    <div className='flex flex-col gap-2 p-10 md:p-16 w-full max-w-sm'>
       {/* Big square image */}
       <div className='relative w-full aspect-square overflow-hidden  rounded-xl'>
         <Image
