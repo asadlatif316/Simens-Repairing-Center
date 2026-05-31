@@ -4,6 +4,7 @@ import './globals.css';
 import { cn } from '@/lib/utils';
 import Navbar from '@/components/navbar/Navbar';
 import Container from '@/components/global/container';
+import Footer from '@/components/footer/Footer';
 
 const openSans = Open_Sans({
   subsets: ['latin'],
@@ -43,6 +44,7 @@ export default function RootLayout({
       <body className='min-h-full flex flex-col' suppressHydrationWarning>
         <Navbar />
         <Container className='py-8'>{children}</Container>
+        <Footer/>
       </body>
     </html>
   );
