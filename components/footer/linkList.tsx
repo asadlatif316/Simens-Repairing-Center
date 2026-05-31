@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const LinkList = () => {
   return (
-    <div>
+    <div className='text-secondary'>
       <h3 className='font-semibold text-lg'>Links</h3>
       <ul>
         {links.map((link) => (

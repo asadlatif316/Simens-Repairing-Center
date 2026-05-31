@@ -2,7 +2,7 @@ import { services } from "@/lib/services";
 import Link from "next/link";
 const ServiceList = () => {
   return (
-    <div>
+    <div className="text-secondary">
       <h3 className='font-semibold text-lg'>Our Repair Services</h3>
       <ul>
         {services.map((service) => (
