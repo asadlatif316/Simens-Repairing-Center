@@ -5,8 +5,16 @@ import Link from 'next/link';
 
 const NavbarButtons = () => {
   return (
-    <div className='mt-4 flex items-center gap-2'>
-      <Button asChild className='bg-btn rounded-sm ml-6'>
+    <div className='mt-4 md:mt-0 flex items-center gap-2 ml-6'>
+      <Button asChild className='md:hidden bg-btn rounded-sm'>
+        <Link href='tel:+97254744326'>
+          <span>
+            <IoCallSharp />
+          </span>
+          +97254744326
+        </Link>
+      </Button>
+      <Button asChild variant={'outline'} className='hidden md:flex rounded-sm'>
         <Link href='tel:+97254744326'>
           <span>
             <IoCallSharp />

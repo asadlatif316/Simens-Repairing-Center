@@ -1,11 +1,9 @@
 import { links } from '@/lib/links';
 import {
-  Button,
   Sheet,
   SheetClose,
   SheetContent,
   SheetDescription,
-  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,

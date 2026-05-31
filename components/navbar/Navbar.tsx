@@ -10,7 +10,7 @@ const Navbar = () => {
           <div className='md:hidden'>
               <Sidebar/>
           </div>
-      <div className='hidden md:flex'>
+      <div className='hidden md:flex items-center'>
         <Links />
         <NavbarButtons />
           </div>
