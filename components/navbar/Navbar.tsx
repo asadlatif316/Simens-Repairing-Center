@@ -5,7 +5,7 @@ import Container from '../global/container';
 import Logo from '../global/logo';
 const Navbar = () => {
   return (
-    <Container className='flex items-center justify-between'>
+    <Container className='flex items-center justify-between pt-8 md:pt-12 pb-6'>
           <Logo />
           <div className='md:hidden'>
               <Sidebar/>
