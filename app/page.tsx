@@ -1,8 +1,11 @@
+import Container from "@/components/global/container"
+import Hero from "@/components/Home/Hero"
+
 const Home = () => {
   return (
-    <div>
-      Home Page
-    </div>
+    <>
+      <Hero/>
+    </>
   )
 }
 

@@ -43,7 +43,7 @@ export default function RootLayout({
     >
       <body className='min-h-full flex flex-col' suppressHydrationWarning>
         <Navbar />
-        <Container className='py-8'>{children}</Container>
+        {children}
         <Footer/>
       </body>
     </html>
