@@ -1,11 +1,9 @@
-import Container from '../global/container';
-import { Button } from '../ui';
+import Container from '../../global/container';
+import { Button } from '../../ui';
 import { FaWhatsapp } from 'react-icons/fa';
 import Link from 'next/link';
 import { IoCallSharp } from 'react-icons/io5';
 import ImagesCollage from './imgesCollage';
-
-
 
 const Hero = () => {
   return (

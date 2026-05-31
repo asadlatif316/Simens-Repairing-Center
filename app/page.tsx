@@ -1,12 +1,12 @@
-import Container from "@/components/global/container"
-import Hero from "@/components/Home/Hero"
+import Container from '@/components/global/container';
+import Hero from '@/components/Home/Hero/Hero';
 
 const Home = () => {
   return (
     <>
-      <Hero/>
+      <Hero />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
