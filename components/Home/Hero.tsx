@@ -3,6 +3,10 @@ import { Button } from '../ui';
 import { FaWhatsapp } from 'react-icons/fa';
 import Link from 'next/link';
 import { IoCallSharp } from 'react-icons/io5';
+import ImagesCollage from './imgesCollage';
+
+
+
 const Hero = () => {
   return (
     <section className='min-h-96 bg-secondary'>
@@ -40,7 +44,7 @@ const Hero = () => {
               </Link>
             </Button>
           </div>
-          <div></div>
+          <ImagesCollage/>
         </div>
       </Container>
     </section>
