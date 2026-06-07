@@ -4,7 +4,7 @@ import ChoosePoints from "./ChoosePoints"
 
 const ChooseUs = () => {
   return (
-    <Container>
+    <Container className="grid md:grid-cols-2 space-y-6 py-10">
           <TextContent />
           <ChoosePoints/>
     </Container>
