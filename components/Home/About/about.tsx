@@ -57,9 +57,9 @@ const About = () => {
 
             {/* Overlay content */}
             <div className='absolute bottom-0 left-0 right-0 p-6 z-10'>
-              <h3 className='text-white text-xl font-semibold mb-2 leading-snug'>
+              <h2 className='text-white text-xl font-semibold mb-2 leading-snug'>
                 Siemens Appliance Repair Services
-              </h3>
+              </h2>
               <p className='text-white/85 text-sm leading-relaxed mb-3'>
                 From washing machines to gas ovens, our skilled technicians have
                 the experience to diagnose and fix all types of Siemens

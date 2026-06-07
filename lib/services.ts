@@ -30,7 +30,7 @@ export const servicesData = [
     title: 'Dryer Repair',
     description:
       'A faulty dryer can throw off your entire laundry routine. Our technicians quickly identify the problem and get your dryer working properly again, saving you time and hassle.',
-    image: '/service/dryer.jpg',
+    image: '/service/dryer-Repair.jpg',
     alt: 'Dryer repair service',
     href: '#dryer-repair',
   },
@@ -54,7 +54,7 @@ export const servicesData = [
     title: 'Oven Repair',
     description:
       'From heating issues to faulty controls, our technicians are experienced in diagnosing and repairing all types of oven problems so you can get back to cooking without delay.',
-    image: '/service/oven.jpg',
+    image: '/service/Oven-Repair.jpg',
     alt: 'Oven repair service',
     href: '#oven-repair',
   },
@@ -70,7 +70,7 @@ export const servicesData = [
     title: 'Dishwasher Repair',
     description:
       'From poor cleaning to water leaks, our technicians can diagnose and fix all dishwasher problems quickly, getting your kitchen routine back on track without any disruption.',
-    image: '/service/dishwasher.jpg',
+    image: '/service/DishWasher.jpg',
     alt: 'Dishwasher repair service',
     href: '#dishwasher-repair',
   },
