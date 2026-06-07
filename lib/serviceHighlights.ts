@@ -17,7 +17,7 @@ export const serviceHighlights = [
     ],
     closing:
       'Facing any of these issues at your Siemens dishwasher? Call us or message us on WhatsApp and we will get it running again.',
-    image: '/service/dishwasher.jpg',
+    image: '/service/DishWasher.jpg',
     alt: 'Dishwasher repair service',
     href: '#dishwasher-repair',
   },

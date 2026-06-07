@@ -6,7 +6,7 @@ const ImagesCollage = () => {
       {/* Big square image */}
       <div className='relative w-full aspect-square overflow-hidden  rounded-xl'>
         <Image
-          src='/service/dishwasher.jpg'
+          src='/service/DishWasher.jpg'
           alt='Certified Siemens appliance repair technician UAE'
           fill
           className='object-cover hover:scale-110 transition-transform duration-150 ease-in'
