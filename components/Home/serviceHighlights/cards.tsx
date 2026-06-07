@@ -36,7 +36,7 @@ const Cards = () => {
             </div>
 
             {/* Content */}
-            
+            <div className='flex flex-col flex-1'>
               <CardHeader>
                 <CardTitle className='text-xl'>{service.title}</CardTitle>
                 <p className='text-sm text-muted-foreground leading-relaxed'>
@@ -44,7 +44,7 @@ const Cards = () => {
                 </p>
               </CardHeader>
 
-              <CardContent className='flex flex-col gap-4'>
+              <CardContent className='flex flex-col space-y-4 gap-4'>
                 {/* Problems */}
                 <div>
                   <p className='text-sm font-semibold mb-2'>Common Problems</p>
@@ -67,7 +67,7 @@ const Cards = () => {
                 </p>
               </CardContent>
 
-              <CardFooter className='gap-3 flex-wrap'>
+              <CardFooter className='gap-3 flex-wrap mt-4'>
                 <Button asChild variant='outline' className='rounded-sm'>
                   <Link href='tel:+97254744326'>
                     <IoCallSharp />
@@ -83,8 +83,9 @@ const Cards = () => {
                     <FaWhatsapp />
                     WhatsApp
                   </Link>
-                </Button>
+                    </Button>
               </CardFooter>
+                    </div>
           </Card>
         ))}
       </div>

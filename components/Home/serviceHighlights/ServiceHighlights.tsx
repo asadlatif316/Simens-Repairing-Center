@@ -3,7 +3,7 @@ import Cards from './cards';
 
 const ServiceHighlights = () => {
   return (
-    <section id='service-details' className='py-10 bg-secondary'>
+    <section id='service-details' className='min-h-96 py-10 bg-secondary'>
       <Container>
         <div className='flex items-center justify-center flex-col'>
           <h2 className='text-2xl font-bold md:text-4xl text-center'>
