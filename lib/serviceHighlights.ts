@@ -39,7 +39,7 @@ export const serviceHighlights = [
     ],
     closing:
       'Facing any of these issues at your Siemens dryer? Call us or message us on WhatsApp and we will get it running again.',
-    image: '/service/dryer.jpg',
+    image: '/service/dryer-Repair.jpg',
     alt: 'Dryer repair service',
     href: '#dryer-repair',
   },
@@ -105,7 +105,7 @@ export const serviceHighlights = [
     ],
     closing:
       'Facing any of these issues at your Siemens oven? Call us or message us on WhatsApp and we will get it running again.',
-    image: '/service/oven.jpg',
+    image: '/service/Oven-Repair.jpg',
     alt: 'Oven repair service',
     href: '#oven-repair',
   },

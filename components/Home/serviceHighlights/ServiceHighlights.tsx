@@ -1,32 +1,21 @@
-import { serviceHighlights } from '@/lib/serviceHighlights';
-import { IoCallSharp } from 'react-icons/io5';
-import { FaWhatsapp } from 'react-icons/fa';
-import { Button } from '@/components/ui';
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-  CardFooter,
-} from '@/components/ui/card';
-import Link from 'next/link';
-import Image from 'next/image';
 import Container from '@/components/global/container';
 import Cards from './cards';
 
 const ServiceHighlights = () => {
   return (
-    <section id='service-details' className='py-16'>
+    <section id='service-details' className='py-10 bg-secondary'>
       <Container>
-        <div>
-          <h2>Common Appliance Problems We Solve</h2>
-          <p>
+        <div className='flex items-center justify-center flex-col'>
+          <h2 className='text-2xl font-bold md:text-4xl text-center'>
+            Common Appliance Problems We Solve
+          </h2>
+          <p className='text-muted-foreground md:mt-2 md:w-3xl text-center'>
             We handle a wide range of home appliance repair problems quickly and
             professionally. Browse our services below to find the solution you
             need.
           </p>
-              </div>
-              <Cards />
+        </div>
+        <Cards />
       </Container>
     </section>
   );
