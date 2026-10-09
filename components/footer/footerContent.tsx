@@ -7,7 +7,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 const FooterContent = () => {
   return (
     <div className='md:col-span-2'>
-      <Logo variant='light'/>
+      <Logo variant='light' />
       <p className='md:max-w-sm text-secondary mt-4 text-sm'>
         Welcome to our Home Appliance Service Center, your trusted partner for
         reliable household appliance repair. We provide fast, affordable, and
@@ -16,15 +16,15 @@ const FooterContent = () => {
       </p>
       <div className='flex items-center gap-x-2 mt-4'>
         <Button asChild variant={'outline'} className='rounded-sm'>
-          <Link href='tel:+97254744326'>
+          <Link href='tel:+971527315207'>
             <span>
               <IoCallSharp />
             </span>
-            +97254744326
+            +971 52 731 5207
           </Link>
         </Button>
         <Button variant={'outline'} asChild className='rounded-sm'>
-          <Link href='href="https://wa.me/97254744326"'>
+          <Link target='_blank' href='https://wa.me/971527315207'>
             <span>
               <FaWhatsapp />
             </span>{' '}

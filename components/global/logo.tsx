@@ -17,7 +17,7 @@ const Logo = ({ variant = 'default' }: LogoProps) => {
       >
         <defs>
           <linearGradient
-            id='fixoraGrad'
+            id='logoGrad'
             x1='4'
             y1='2'
             x2='36'
@@ -30,7 +30,7 @@ const Logo = ({ variant = 'default' }: LogoProps) => {
         </defs>
         <polygon
           points='20,2 36,11 36,29 20,38 4,29 4,11'
-          fill={isLight ? '#FFFFFF' : 'url(#fixoraGrad)'}
+          fill={isLight ? '#FFFFFF' : 'url(#logoGrad)'}
         />
         <g
           transform='translate(9.5 9.5) scale(0.88)'
@@ -45,25 +45,16 @@ const Logo = ({ variant = 'default' }: LogoProps) => {
       </svg>
 
       {/* Wordmark */}
-      <div className='leading-tight'>
-        <p
-          className={`text-xl font-extrabold tracking-tight ${
-            isLight ? 'text-white' : 'text-slate-900'
-          }`}
-        >
-          Fix
-          <span className={isLight ? 'text-amber-300' : 'text-teal-600'}>
-            ora
-          </span>
-        </p>
-        <p
-          className={`text-[10px] font-semibold uppercase tracking-[0.25em] ${
-            isLight ? 'text-white/80' : 'text-slate-500'
-          }`}
-        >
-          Appliance Care
-        </p>
-      </div>
+      <p
+        className={`text-xl font-extrabold leading-none tracking-tight ${
+          isLight ? 'text-white' : 'text-slate-900'
+        }`}
+      >
+        Appliance{' '}
+        <span className={isLight ? 'text-amber-300' : 'text-teal-600'}>
+          Care
+        </span>
+      </p>
     </div>
   );
 };
