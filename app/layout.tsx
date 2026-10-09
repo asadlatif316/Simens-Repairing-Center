@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 import Navbar from '@/components/navbar/Navbar';
 import Container from '@/components/global/container';
 import Footer from '@/components/footer/Footer';
-
+import FloatingContact from '@/components/global/floatingButtons'
 const openSans = Open_Sans({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
@@ -44,7 +44,8 @@ export default function RootLayout({
       <body className='min-h-full flex flex-col' suppressHydrationWarning>
         <Navbar />
         {children}
-        <Footer/>
+        <Footer />
+        <FloatingContact/>
       </body>
     </html>
   );
