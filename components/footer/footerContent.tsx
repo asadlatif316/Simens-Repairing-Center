@@ -3,17 +3,16 @@ import { Button } from '../ui';
 import Link from 'next/link';
 import { IoCallSharp } from 'react-icons/io5';
 import { FaWhatsapp } from 'react-icons/fa';
-import FooterLogo from '../global/footerLogo';
 
 const FooterContent = () => {
   return (
     <div className='md:col-span-2'>
-      <FooterLogo />
+      <Logo variant='light'/>
       <p className='md:max-w-sm text-secondary mt-4 text-sm'>
-        Welcome to Siemens Service Center, your most trusted partner in home
-        appliance repair. We specialize in fast, reliable, and affordable repair
-        services for all Siemens household appliances, backed by certified
-        technicians and years of experience.
+        Welcome to our Home Appliance Service Center, your trusted partner for
+        reliable household appliance repair. We provide fast, affordable, and
+        dependable repair services for all major home appliance brands, handled
+        by certified technicians with years of hands-on experience.
       </p>
       <div className='flex items-center gap-x-2 mt-4'>
         <Button asChild variant={'outline'} className='rounded-sm'>

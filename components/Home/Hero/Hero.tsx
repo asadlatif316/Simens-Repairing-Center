@@ -13,15 +13,16 @@ const Hero = () => {
           <div>
             {' '}
             <span className='text-xs font-bold inline text-btn rounded-3xl'>
-              Siemens Authorized Service Center - UAE
+              Your trusted home appliance service center
             </span>
           </div>
           <h1 className='text-3xl md:text-4xl font-bold mt-2'>
-            Siemens Home Appliance Repair & Maintenance
+            Home Appliance Repair & Maintenance
           </h1>
           <p className='mt-4 text-muted-foreground text-sm'>
-            From washing machines to gas ovens, our certified Siemens
-            technicians diagnose and repair all faults, fast.
+            From washing machines to gas ovens, our certified technicians
+            diagnose and repair every fault quickly, so your home keeps running
+            without the stress.
           </p>
           <h2 className='font-bold text-lg text-btn mt-4'>
             Book your repair today!
