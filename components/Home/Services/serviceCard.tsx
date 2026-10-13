@@ -68,7 +68,7 @@ const ServiceCard = () => {
                   <Button asChild variant='secondary' className='rounded-sm'>
                     <Link href='tel:+971527315207'>
                       <IoCallSharp />
-                      +971 52 731 5207
+                      Call Us
                     </Link>
                   </Button>
                   <Button asChild className='bg-btn rounded-sm'>

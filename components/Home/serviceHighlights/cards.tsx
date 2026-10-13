@@ -68,24 +68,22 @@ const Cards = () => {
               </CardContent>
 
               <CardFooter className='gap-3 flex-wrap mt-4'>
-                <Button asChild variant='outline' className='rounded-sm'>
-                  <Link href='tel:+97254744326'>
-                    <IoCallSharp />
-                    Call Us
+                <Button variant={'outline'} asChild className='rounded-sm'>
+                  <Link href='tel:+971527315207'>
+                    <IoCallSharp /> Call us
                   </Link>
                 </Button>
-                <Button asChild className='bg-btn rounded-sm'>
+                <Button asChild variant='outline' className='rounded-sm bg-btn text-background'>
                   <Link
-                    href='https://wa.me/97254744326'
+                    href='https://wa.me/971527315207'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    <FaWhatsapp />
-                    WhatsApp
+                    <FaWhatsapp /> WhatsApp
                   </Link>
-                    </Button>
+                </Button>
               </CardFooter>
-                    </div>
+            </div>
           </Card>
         ))}
       </div>
