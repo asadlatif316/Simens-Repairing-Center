@@ -9,6 +9,12 @@ const FooterContent = () => {
     <div className='md:col-span-2'>
       <Logo variant='light' />
       <p className='md:max-w-sm text-secondary mt-4 text-sm'>
+        We are an independent appliance repair service provider operating in the
+        UAE. We are not affiliated with, authorized by, sponsored by, or
+        endorsed by any appliance manufacturer. Brand names are used solely to
+        identify the appliance we service.
+      </p>
+      <p className='md:max-w-sm text-secondary mt-4 text-sm'>
         Welcome to our Home Appliance Service Center, your trusted partner for
         reliable household appliance repair. We provide fast, affordable, and
         dependable repair services for all major home appliance brands, handled
