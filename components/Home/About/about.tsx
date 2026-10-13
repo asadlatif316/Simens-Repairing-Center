@@ -32,12 +32,16 @@ const About = () => {
             </p>
             <div className='flex gap-3 text-primary'>
               <Button variant={'outline'} asChild className='rounded-sm'>
-                <Link href='tel:+97254744326'>
-                  <IoCallSharp /> Call us
+                <Link href='tel:+971527315207'>
+                  <IoCallSharp /> Call Us
                 </Link>
               </Button>
               <Button asChild variant='outline' className='rounded-sm'>
-                <Link href='https://wa.me/97254744326' target='_blank'>
+                <Link
+                  href='https://wa.me/971527315207'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <FaWhatsapp /> WhatsApp
                 </Link>
               </Button>
@@ -66,7 +70,7 @@ const About = () => {
                 appliance faults quickly, professionally, and at a fair price.
               </p>
               <div className='flex gap-2 flex-wrap'>
-                {['Same-day service','5★ rated'].map((tag) => (
+                {['Same-day service', '5★ rated'].map((tag) => (
                   <span
                     key={tag}
                     className='bg-white/15 border border-white/25 text-white text-xs px-3 py-1 rounded-full'

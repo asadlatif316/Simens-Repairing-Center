@@ -45,16 +45,22 @@ const Logo = ({ variant = 'default' }: LogoProps) => {
       </svg>
 
       {/* Wordmark */}
-      <p
-        className={`text-xl font-extrabold leading-none tracking-tight ${
-          isLight ? 'text-white' : 'text-slate-900'
-        }`}
-      >
-        Appliance{' '}
-        <span className={isLight ? 'text-amber-300' : 'text-teal-600'}>
-          Care
-        </span>
-      </p>
+      <div className='leading-tight'>
+        <p
+          className={`text-2xl font-semibold tracking-tight ${
+            isLight ? 'text-white' : 'text-slate-900'
+          }`}
+        >
+          Appliance
+        </p>
+        <p
+          className={`text-[11px] font-medium uppercase tracking-[0.35em] ${
+            isLight ? 'text-white/80' : 'text-slate-500'
+          }`}
+        >
+          Care Service
+        </p>
+      </div>
     </div>
   );
 };

@@ -66,14 +66,14 @@ const ServiceCard = () => {
               <CardFooter>
                 <div className='flex items-center gap-2 flex-wrap'>
                   <Button asChild variant='secondary' className='rounded-sm'>
-                    <Link href='tel:+97254744326'>
+                    <Link href='tel:+971527315207'>
                       <IoCallSharp />
-                      +97254744326
+                      +971 52 731 5207
                     </Link>
                   </Button>
                   <Button asChild className='bg-btn rounded-sm'>
                     <Link
-                      href='https://wa.me/97254744326'
+                      href='https://wa.me/971527315207'
                       target='_blank'
                       rel='noopener noreferrer'
                     >

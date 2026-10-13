@@ -19,7 +19,7 @@ const NavbarButtons = () => {
           <span>
             <IoCallSharp />
           </span>
-          +971 52 731 5207
+          Call Us
         </Link>
       </Button>
       <Button asChild className='bg-btn rounded-sm'>

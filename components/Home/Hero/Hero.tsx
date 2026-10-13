@@ -37,7 +37,11 @@ const Hero = () => {
               </Link>
             </Button>
             <Button asChild className='bg-btn rounded-sm'>
-              <Link target='_blank' href='https://wa.me/971527315207'>
+              <Link
+                href='https://wa.me/971527315207'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <span>
                   <FaWhatsapp />
                 </span>{' '}
