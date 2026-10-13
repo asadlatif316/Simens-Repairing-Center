@@ -20,10 +20,14 @@ const TextContent = () => {
         <Button variant={'outline'} asChild className='rounded-sm'>
           <Link href='tel:+971527315207'>
             <IoCallSharp />
-            +97254744326
+            +971 52 731 5207
           </Link>
         </Button>
-        <Button asChild variant='outline' className='rounded-sm bg-btn text-secondary'>
+        <Button
+          asChild
+          variant='outline'
+          className='rounded-sm bg-btn text-secondary'
+        >
           <Link
             href='https://wa.me/971527315207'
             target='_blank'
